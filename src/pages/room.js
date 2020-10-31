@@ -29,7 +29,7 @@ export default function Room(props) {
       .then((stream) => {
         videoRef.current.srcObject = stream;
 
-        socketRef.current = io.connect('http://localhost:3001');
+        socketRef.current = io.connect('https://videonapi.herokuapp.com/');
 
         // sending the user details and roomid to join in the room
         socketRef.current.emit('join-room', code, userDetails);

@@ -1,6 +1,6 @@
 # videon
 
-![videon](https://videon.vercel.app/images/Logo512.svg)
+![videon](https://videon.vercel.app/images/Logo192.svg)
 
 ## Goals
 
